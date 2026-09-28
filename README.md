@@ -50,6 +50,6 @@ The site is plain HTML, CSS and JavaScript, so every commit to `main` can deploy
 ## Before the final launch
 
 - Connect the inquiry form to Formspree so submissions are delivered directly to `hello@elseand.co` without opening the visitor's email application.
-- Replace the gallery treatments with approved photographs.
+- Add the gallery section after approved photographs have been selected.
 - Add verified testimonials and the Google review link after the Google Business Profile is ready.
 - Remove any previous Worker route assigned to `elseand.co/*` before connecting the custom domain to this Pages project.

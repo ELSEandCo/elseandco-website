@@ -4,8 +4,8 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=()
   X-Frame-Options: SAMEORIGIN
 
-/styles.css
-  Cache-Control: public, max-age=86400
+/styles-20260928.css
+  Cache-Control: no-cache
 
 /script.js
   Cache-Control: public, max-age=86400
