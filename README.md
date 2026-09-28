@@ -42,10 +42,10 @@ The site is plain HTML, CSS and JavaScript, so every commit to `main` can deploy
 
 ## Brand asset update
 
-- The Escape, The Gathering and The Edit use the approved circular 3000 × 3000 px logos.
-- The footer uses the approved 4000 px horizontal ELSE & CO. lockup.
-- The footer background matches the lockup background so the image integrates cleanly across the full width.
-- The circular logos retain transparency outside the circle and remain circular on desktop and mobile.
+- The homepage uses the original rectangular logo treatments for The Escape, The Gathering and The Edit.
+- Each individual vertical landing page retains its approved circular 3000 × 3000 px logo.
+- Footer information appears above the approved horizontal ELSE & CO. lockup.
+- The footer lockup has a transparent background and sits directly on the same cream background as the page.
 
 ## Before the final launch
 

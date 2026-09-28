@@ -152,17 +152,20 @@ button { font: inherit; }
 .visible-email { display: block; width: fit-content; margin: 1.5rem auto 0; color: var(--cream); font-family: var(--serif); font-size: clamp(1.05rem,2vw,1.35rem); text-underline-offset: .3rem; }
 .closing-statement { margin: 2rem auto .5rem !important; color: var(--beige) !important; font-family: var(--serif); font-size: clamp(1.55rem,3vw,2.5rem); font-style: italic; }
 
-.site-footer { display: grid; padding: clamp(4rem, 7vw, 7rem) max(3.5vw, calc((100vw - 1500px)/2)) 2.5rem; color: var(--espresso); background: #f7f6f4; grid-template-columns: 1fr; gap: clamp(2.5rem, 5vw, 4.5rem); border-top: 1px solid rgba(58,36,24,.12); }
-.footer-lockup { display: block; width: 100%; height: auto; }
-.footer-meta { display: grid; padding-top: 1.4rem; grid-template-columns: minmax(0,1fr) auto auto; gap: 1rem 2rem; align-items: center; border-top: 1px solid rgba(58,36,24,.16); }
+.site-footer { display: grid; padding: clamp(3.5rem, 6vw, 6rem) max(3.5vw, calc((100vw - 1500px)/2)) 2.5rem; color: var(--espresso); background: var(--paper); grid-template-columns: 1fr; gap: clamp(3rem, 5vw, 5rem); border-top: 1px solid rgba(58,36,24,.12); }
+.footer-lockup { display: block; width: 100%; height: auto; order: 2; }
+.footer-meta { display: grid; padding-bottom: 1.5rem; grid-template-columns: minmax(0,1fr) auto; gap: 1.35rem 2rem; align-items: center; order: 1; border-bottom: 1px solid rgba(58,36,24,.16); }
 .footer-links { display: flex; justify-content: flex-start; gap: 2rem; flex-wrap: wrap; }
 .footer-links a { font-size: .68rem; letter-spacing: .14em; text-decoration: none; text-transform: uppercase; }
 .footer-email { justify-self: end; font-family: var(--serif); font-size: clamp(1.05rem,1.6vw,1.35rem); text-transform: none; }
 .site-footer p { margin: 0; color: rgba(58,36,24,.62); font-size: .62rem; letter-spacing: .13em; text-transform: uppercase; }
 .site-footer p:last-child { text-align: right; }
 
-.world-logo-panel { display: grid; min-height: 420px; margin: 2rem; place-items: center; overflow: hidden; background: transparent; }
-.world-logo-panel img { display: block; width: min(88%, 460px); height: auto; }
+.world-logo-panel { display: grid; min-height: 420px; margin: 2rem; place-items: center; overflow: hidden; }
+.world-logo-panel img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.world-card.escape .world-logo-panel { background: #192a22; }
+.world-card.gathering .world-logo-panel { background: #624a39; }
+.world-card.edit .world-logo-panel { background: #d8cbb9; }
 
 /* Vertical landing pages */
 .vertical-hero { display: grid; min-height: 100svh; padding: 9rem max(6vw, calc((100vw - 1280px)/2)) 5rem; color: var(--cream); grid-template-columns: 1.18fr .82fr; gap: clamp(3rem, 8vw, 8rem); align-items: center; }
