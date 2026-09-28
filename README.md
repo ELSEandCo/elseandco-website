@@ -8,6 +8,7 @@ A static, responsive website prepared for GitHub and Cloudflare Pages.
 - `/escape/` — The Escape: curated travel and private journeys
 - `/gathering/` — The Gathering: destination events and group experiences
 - `/edit/` — The Edit: travel and hospitality consulting
+- `/inquiry/` — shared inquiry form for all three verticals
 
 ## Repository structure
 
@@ -15,9 +16,10 @@ A static, responsive website prepared for GitHub and Cloudflare Pages.
 - `escape/index.html` — The Escape landing page
 - `gathering/index.html` — The Gathering landing page
 - `edit/index.html` — The Edit landing page
+- `inquiry/index.html` — inquiry form and visible email option
 - `assets/logos/` — approved brand and vertical logos
 - `styles.css` — design system and responsive layout
-- `script.js` — mobile navigation and reveal effects
+- `script.js` — navigation, reveal effects and review form behavior
 - `favicon.svg` — browser icon
 - `_headers` — security and caching headers for Cloudflare Pages
 
@@ -37,3 +39,10 @@ Connect the GitHub repository to Cloudflare Pages. This project has no build ste
 - Build output directory: `/`
 
 The site is plain HTML, CSS and JavaScript, so every commit to `main` can deploy automatically.
+
+## Before the final launch
+
+- Connect the inquiry form to Formspree so submissions are delivered directly to `hello@elseand.co` without opening the visitor's email application.
+- Replace the gallery treatments with approved photographs.
+- Add verified testimonials and the Google review link after the Google Business Profile is ready.
+- Remove any previous Worker route assigned to `elseand.co/*` before connecting the custom domain to this Pages project.
