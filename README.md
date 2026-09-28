@@ -40,6 +40,13 @@ Connect the GitHub repository to Cloudflare Pages. This project has no build ste
 
 The site is plain HTML, CSS and JavaScript, so every commit to `main` can deploy automatically.
 
+## Brand asset update
+
+- The Escape, The Gathering and The Edit use the approved circular 3000 × 3000 px logos.
+- The footer uses the approved 4000 px horizontal ELSE & CO. lockup.
+- The footer background matches the lockup background so the image integrates cleanly across the full width.
+- The circular logos retain transparency outside the circle and remain circular on desktop and mobile.
+
 ## Before the final launch
 
 - Connect the inquiry form to Formspree so submissions are delivered directly to `hello@elseand.co` without opening the visitor's email application.
