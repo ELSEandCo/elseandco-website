@@ -8,6 +8,7 @@ A static, responsive website prepared for GitHub and Cloudflare Pages.
 - `/escape/` — The Escape: curated travel and private journeys
 - `/gathering/` — The Gathering: destination events and group experiences
 - `/edit/` — The Edit: travel and hospitality consulting
+- `/team/` — ELSE Team: professional profiles for Irely Fajardo and Karla Gomez
 - `/inquiry/` — shared inquiry form for all three verticals
 
 ## Repository structure
@@ -16,10 +17,12 @@ A static, responsive website prepared for GitHub and Cloudflare Pages.
 - `escape/index.html` — The Escape landing page
 - `gathering/index.html` — The Gathering landing page
 - `edit/index.html` — The Edit landing page
+- `team/index.html` — founder profiles and professional headshots
 - `inquiry/index.html` — inquiry form and visible email option
 - `assets/logos/` — approved brand and vertical logos
-- `styles.css` — design system and responsive layout
-- `script.js` — navigation, reveal effects and review form behavior
+- `assets/team/` — optimized professional headshots
+- `styles-20260928.css` — design system and responsive layout
+- `script.js` — navigation, editorial movement and inquiry form behavior
 - `favicon.svg` — browser icon
 - `_headers` — security and caching headers for Cloudflare Pages
 
@@ -50,6 +53,6 @@ The site is plain HTML, CSS and JavaScript, so every commit to `main` can deploy
 ## Before the final launch
 
 - Connect the inquiry form to Formspree so submissions are delivered directly to `hello@elseand.co` without opening the visitor's email application.
-- Add the gallery section after approved photographs have been selected.
+- Add the homepage travel-photo carousel after approved photographs of Irely and Karla have been selected. The surrounding team section is already prepared for it.
 - Add verified testimonials and the Google review link after the Google Business Profile is ready.
 - Remove any previous Worker route assigned to `elseand.co/*` before connecting the custom domain to this Pages project.

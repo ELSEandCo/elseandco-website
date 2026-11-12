@@ -8,4 +8,4 @@
   Cache-Control: no-cache
 
 /script.js
-  Cache-Control: public, max-age=86400
+  Cache-Control: no-cache

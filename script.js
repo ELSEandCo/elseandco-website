@@ -39,6 +39,10 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+document.querySelectorAll('.hero h1, .vertical-hero-copy h1, .team-hero h1, .manifesto h2, .world-tagline, .vertical-difference blockquote').forEach((element) => {
+  element.classList.add('motion-heading');
+  observer.observe(element);
+});
 document.querySelectorAll('[data-year]').forEach((element) => {
   element.textContent = new Date().getFullYear();
 });
