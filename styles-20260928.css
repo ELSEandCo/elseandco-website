@@ -167,7 +167,8 @@ button { font: inherit; }
 .world-logo-panel img { display: block; width: 100%; height: 100%; object-fit: cover; }
 .world-card.escape .world-logo-panel { background: #192a22; }
 .world-card.gathering .world-logo-panel { background: #624a39; }
-.world-card.edit .world-logo-panel { background: #d8cbb9; }
+.world-card.edit .world-logo-panel { background: #efded2; }
+.world-card.edit .world-logo-panel img { width: 74%; height: auto; object-fit: contain; }
 
 /* Vertical landing pages */
 .vertical-hero { display: grid; min-height: 100svh; padding: 9rem max(6vw, calc((100vw - 1280px)/2)) 5rem; color: var(--cream); grid-template-columns: 1.18fr .82fr; gap: clamp(3rem, 8vw, 8rem); align-items: center; }
