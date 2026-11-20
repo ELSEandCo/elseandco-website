@@ -47,6 +47,22 @@ document.querySelectorAll('[data-year]').forEach((element) => {
   element.textContent = new Date().getFullYear();
 });
 
+const collage = document.querySelector('[data-collage]');
+if (collage && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  const updateCollage = (event) => {
+    const bounds = collage.getBoundingClientRect();
+    const x = (event.clientX - bounds.left) / bounds.width - .5;
+    const y = (event.clientY - bounds.top) / bounds.height - .5;
+    collage.style.setProperty('--collage-x', `${x * 28}px`);
+    collage.style.setProperty('--collage-y', `${y * 22}px`);
+  };
+  collage.addEventListener('pointermove', updateCollage);
+  collage.addEventListener('pointerleave', () => {
+    collage.style.setProperty('--collage-x', '0px');
+    collage.style.setProperty('--collage-y', '0px');
+  });
+}
+
 const inquiryForm = document.querySelector('[data-inquiry-form]');
 if (inquiryForm) {
   const selectedService = new URLSearchParams(window.location.search).get('service');
